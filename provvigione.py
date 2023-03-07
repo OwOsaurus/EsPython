@@ -39,11 +39,8 @@ while True:
         VC = float(input("Enter Caffè Venduto: "))
         VT = float(input("Enter Tè Venduto: "))
 
-        if VC > 0:
+        if VC > 0 and VT > 0:
             continue
-        elif VT > 0:
-            continue
-
         break
     
 
